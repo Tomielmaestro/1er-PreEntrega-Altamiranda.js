@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --title: 'Pacifico', cursive;
+    --paragraph: 'Manrope', sans-serif;
+    --nav_background: #000000;
+    --color: #ffffff;
+    --background: #fff0f3;
+}
+
+body {
+    background-color: #edede9;
+}
+
+.wrapper {
+    display: grid;
+    width: max-content;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px 1620px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: var(--nav_background);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.logo {
+    color: var(--color);
+    font-family: var(--title);
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+.nav {
+    width: 100%;
+}
+.li {
+    list-style-type: none;
+    padding-bottom: 1.5rem;
+}
+
+.li a {
+    text-decoration: none;
+    font-family: var(--paragraph);
+    color: var(--color);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .84rem;
+}
+.contacto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+.contacto h2 {
+    color: var(--color);
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.contacto span {
+    color: var(--color);
+    font-family: var(--paragraph);
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.contacto .social {
+    color: var(--color);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.contacto .social i {
+    padding: 12px;
+}
+
+/* HERO SLIDER*/
+main {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 80%;
+    height: 100%;
+    border: 1px solid #dad7cd;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 2.5rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
