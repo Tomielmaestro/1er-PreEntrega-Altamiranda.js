@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Login Brand</title>
+  </head>
+  <body class="body">
+    <section class="section-register">
+      <h2 class="h2">
+        Login tienda |
+        <a href="./login.html" class="a-link">Brand</a>
+      </h2>
+      <form id="loginForm" class="loginForm">
+        <label class="labelName border">Email</label>
+        <input type="email" placeholder="..." required autofocus id="email" />
+        <label class="labelName border">Contraseña</label>
+        <input type="password" placeholder="..." required id="password" />
+        <input type="submit" value="ingresar" />
+        <div class="social-login">
+          <p class="p">nuestras redes</p>
+          <div class="logos-social">
+            <a href="https://www.instagram.com/tomii_alt/"
+              ><i class="i-con bi bi-instagram"></i
+            ></a>
+            <a href="#" class="a-link"><i class="i-con bi bi-facebook"></i></a>
+          </div>
+        </div>
+      </form>
+      <p class="p">
+        no tienes una cuenta?<a href="./register.html" class="a-link"
+          >Regristro</a
+        >
+      </p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/loginUser.js"></script>
+  </body>
+</html>

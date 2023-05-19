@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Tienda | Fhasion</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        <header>
+          <h1 class="logo">Brand</h1>
+        </header>
+        <nav class="nav">
+          <ul class="ul">
+            <li class="li"><a href="../index.html" class="link btn-menu">Home</a></li>
+            <li class="li">
+              <button id="todos" class="btn-menu btn-categoria">
+                New Arrivals
+              </button>
+            </li>
+            <li class="li">
+              <button id="remeras" class="btn-menu btn-categoria">
+                Tops/Remeras
+              </button>
+            </li>
+            <li class="li">
+              <button id="vestidos" class="btn-menu btn-categoria">
+                Vestidos/Monos
+              </button>
+            </li>
+            <li class="li">
+              <button id="shorts" class="btn-menu btn-categoria">
+                Shorts/Polleras/Bikers
+              </button>
+            </li>
+            <li class="li">
+              <button id="bodys" class="btn-menu btn-categoria">Bodys</button>
+            </li>
+            <li class="li">
+              <a href="#" class="link btn-menu">Contactanos</a>
+            </li>
+            <li class="li">
+              <a href="#" class="link btn-menu">Preguntas Frecuentes</a>
+            </li>
+            <li class="li">
+              <a href="#" class="link btn-menu">Sale Semanal</a>
+            </li>
+            <li class="li"><a href="#" class="link btn-menu">Log In</a></li>
+          </ul>
+        </nav>
+        <section class="contacto">
+          <h2>Contactanos Ahora</h2>
+          <span>11-4576-2828</span>
+          <div class="social">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+          </div>
+        </section>
+      </aside>
+      <main>
+        <div class="shopping-cart">
+          <div class="shopping-title">
+            <h2>Shopping Cart</h2>
+            <a href="../index.html">Seguir Comprando🔙</a>
+            <p id="carrito-vacio" class="carrito-vacio">El carrito está vacío<i class="bi bi-emoji-frown"></i></p>
+            <div class="shopping-container active" id="container-productos">
+              <div class="shopping-product" id="productCard">
+                <!-- contenido generado con js -->
+              </div>
+            </div>
+            <div class="total-comprar active" id="total-comprar">
+              <p class="total">total:<span id="total">$3000</span></p>
+              <button class="comprar">comprar ahora</button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../js/carrito.js"></script>
+  </body>
+</html>

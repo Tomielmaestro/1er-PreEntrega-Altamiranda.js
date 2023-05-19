@@ -1,138 +1,182 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./img/Icons/Icono-brand.ico"
+      type="image/x-icon"
+    />
     <title>Tienda | Fhasion</title>
-</head>
-<body>
+    <meta name="description" content="Tienda | Brand. Sitio Exclusivo!" />
+    <meta
+      name="keywords"
+      content="Ropa, remeras, shorts, body, top, precios increíbles, etc"
+    />
+  </head>
+  <body>
     <div class="wrapper">
-        <aside>
-            <div class="car">
-                <i class="bi bi-cart3">$0</i>
+      <aside>
+        <header>
+          <h1 class="logo"><a href="./index.html" class="logo-a">Brand</a></h1>
+        </header>
+        <nav class="nav">
+          <ul class="ul">
+            <li class="li">
+              <a href="./index.html" class="link btn-menu">Home</a>
+            </li>
+            <li class="li">
+              <button id="todos" class="btn-menu btn-categoria">
+                New Arrivals
+              </button>
+            </li>
+            <li class="li">
+              <button id="remeras" class="btn-menu btn-categoria">
+                Tops/Remeras
+              </button>
+            </li>
+            <li class="li">
+              <button id="vestidos" class="btn-menu btn-categoria">
+                Vestidos/Monos
+              </button>
+            </li>
+            <li class="li">
+              <button id="shorts" class="btn-menu btn-categoria">
+                Shorts/Polleras/Bikers
+              </button>
+            </li>
+            <li class="li">
+              <button id="bodys" class="btn-menu btn-categoria">Bodys</button>
+            </li>
+            <li class="li">
+              <a href="#" class="link btn-menu">Contactanos</a>
+            </li>
+            <li class="li">
+              <a href="#" class="link btn-menu">Preguntas Frecuentes</a>
+            </li>
+            <!-- <li class="li">
+              <a href="#" class="link btn-menu">Sale Semanal</a>
+            </li>
+            <li class="li"><a href="#" class="link btn-menu">Log In</a></li> -->
+          </ul>
+        </nav>
+        <section class="contacto">
+          <h2>Contactanos Ahora</h2>
+          <span>11-4576-2828</span>
+          <div class="social">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+          </div>
+        </section>
+      </aside>
+      <main>
+        <!-- slider start -->
+        <div class="container">
+          <div class="slider">
+            <!-- slides start -->
+            <div class="slides">
+              <!-- slide img start -->
+              <div class="slide active">
+                <img src="./img/slider_1.jpg" alt="img-1" />
+              </div>
+              <div class="slide">
+                <img src="./img/slider_2.jpg" alt="img-2" />
+              </div>
+              <div class="slide">
+                <img src="./img/slider_3.jpg" alt="img-3" />
+              </div>
+              <div class="slide">
+                <img src="./img/slider_4.jpg" alt="img-4" />
+              </div>
+              <!-- slide img end -->
             </div>
-            <header>
-                <h1 class="logo">Brand</h1>
-            </header>
-            <nav class="nav">
-                <ul class="ul">
-                    <li class="li"><a href="#" class="link">Home</a></li>
-                    <li class="li"><a href="#" class="link">New Arrivals</a></li>
-                    <li class="li"><a href="#" class="link">Tops/Remeras</a></li>
-                    <li class="li"><a href="#" class="link">Vestidos/Monos</a></li>
-                    <li class="li"><a href="#" class="link">Shorts/Polleras/Bikers</a></li>
-                    <li class="li"><a href="#" class="link">Bodys</a></li>
-                    <li class="li"><a href="#" class="link">Contactanos</a></li>
-                    <li class="li"><a href="#" class="link">Preguntas Frecuentes</a></li>
-                    <li class="li"><a href="#" class="link">Sale Semanal</a></li>
-                    <li class="li"><a href="#" class="link">Log In</a></li>
-                </ul>
-            </nav>
-            <section class="contacto">
-                <h2>Contactanos Ahora</h2>
-                <span>11-4576-2828</span>
-                <div class="social">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-instagram"></i>
-                </div>
-            </section>
-        </aside>
-        <main>
-            <!-- slider start -->
-            <div class="slider slider-1">
-                <!-- slides start -->
-                <div class="slides">
-                    <!-- slide img start -->
-                    <div class="slide active">
-                        <img src="./img/slider_1.jpg" alt="img-1">
-                    </div>
-                    <div class="slide">
-                        <img src="./img/slider_2.jpg" alt="img-2">
-                    </div>
-                    <div class="slide">
-                        <img src="./img/slider_3.jpg" alt="img-3">
-                    </div>
-                    <div class="slide">
-                        <img src="./img/slider_4.jpg" alt="img-4">
-                    </div>
-                    <!-- slide img end -->
-                </div>
-                <!-- slides end -->
-                <!-- manual navigation start -->
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
-                <!-- manual navigation end -->
+            <!-- slides end -->
+          </div>
+          <!-- slider end -->
+          <div class="seccion">
+            <form class="form">
+              <input
+                class="input"
+                type="search"
+                placeholder="Search..."
+                id="search"
+                autocomplete="off"
+                required
+              />
+              <label for="search" class="label">buscar</label>
+            </form>
+            <div class="select-container">
+              <select class="select-box">
+                <option value="">Ordenar Por</option>
+                <option value="todos">Todos</option>
+                <option value="mayorPrecio">Mayor Precio</option>
+                <option value="menorPrecio">Menor Precio</option>
+              </select>
+              <div class="icon-container">
+                <i class="bi bi-arrow-down-short"></i>
+              </div>
             </div>
-            <!-- slider end -->
-        </main>
-        <!-- <section class="productos">
-            <h3>New Arrivals</h3>
-            <div class="colum-4">
-                <div class="product-inner">
-                    <div class="product-img">
-                        <a href="#"></a>
-                        <div class="img-efecto">
-                            <img src="./img/depositphotos_292438926-stock-photo-full-length-portrait-brunette-girl.jpg" alt="">
-                            <img src="./img/depositphotos_94222094-stock-photo-picture-of-happy-lovely-woman.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="product-content">
-                        <h4>Pantalon 1</h4>
-                        <span>$2.933</span>
-                    </div>
-                </div>
-                <div class="product-inner">
-                    <div class="product-img">
-                        <a href="#"></a>
-                        <div class="img-efecto">
-                            <img src="./img/depositphotos_89399146-stock-photo-fashion-beautiful-girl-with-modern.jpg" alt="">
-                            <img src="./img/depositphotos_70444255-stock-photo-fashion-beautiful-girl-with-modern.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="product-content">
-                        <h4>Pantalon 1</h4>
-                        <span>$2.933</span>
-                    </div>
-                </div>
-                <div class="product-inner">
-                    <div class="product-img">
-                        <a href="#"></a>
-                        <div class="img-efecto">
-                            <img src="./img/depositphotos_64609093-stock-photo-fashion-beautiful-woman-isolated.jpg" alt="">
-                            <img src="./img/depositphotos_64609075-stock-photo-fashion-beautiful-woman-isolated.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="product-content">
-                        <h4>Pantalon 1</h4>
-                        <span>$2.933</span>
-                    </div>
-                </div>
-                <div class="product-inner">
-                    <div class="product-img">
-                        <a href="#"></a>
-                        <div class="img-efecto">
-                            <img src="./img/depositphotos_46892457-stock-photo-girl-in-beautiful-skirt-catalogue.jpg" alt="">
-                            <img src="./img/depositphotos_46892435-stock-photo-girl-in-beautiful-skirt-catalogue.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="product-content">
-                        <h4>Pantalon 1</h4>
-                        <span>$2.933</span>
-                    </div>
-                </div>
+            <div class="user">
+              <i class="bi bi-person-fill"></i>
+              <button type="button" id="Logout" class="btnUser"></button>
             </div>
-        </section> -->
+            <div class="carrito">
+              <div class="heart">
+                <i class="bi bi-heart-fill"
+                  ><span id="cant-fav" class="cant-fav">0</span></i
+                >
+              </div>
+              <div class="cart">
+                <a href="./seccion/carrito.html">
+                  <i class="bi bi-cart3"></i><span class="num-cantidad">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category">
+          <h3 class="linea-efecto" id="title-categoria">New Arrivals</h3>
+        </div>
+        <div class="contenedor-product" id="contenedor-productos">
+          <!-- contenido generado dinamico con JS -->
+        </div>
+        <footer>
+          <div class="red-social">
+            <a href="" class="red-social-link"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="" class="red-social-link"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </div>
+          <div class="copyright">
+            <img src="./img/Icons/DATAWEB.jpg" alt="dataweb" />
+            <p>Brand Online©2023. All Rights Reserved</p>
+          </div>
+        </footer>
+      </main>
     </div>
     <!-- <script src="./js/main.js"></script> -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>

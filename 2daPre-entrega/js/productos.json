@@ -1,0 +1,189 @@
+[
+  {
+    "id": "remera-01",
+    "titulo": "remera-01",
+    "imagen": "../img/img-producto/remera-m-1.webp",
+    "img2": "./img/img-producto/remera-m-2.webp",
+    "categoria": {
+      "nombre": "remeras",
+      "id": "remeras"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "remera-02",
+    "titulo": "remera-02",
+    "imagen": "../img/img-producto/remera-m-3.webp",
+    "img2": "./img/img-producto/remera-m-4.webp",
+    "categoria": {
+      "nombre": "remeras",
+      "id": "remeras"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "remera-03",
+    "titulo": "remera-03",
+    "imagen": "../img/img-producto/remera-m-5.webp",
+    "img2": "./img/img-producto/remera-m-6.webp",
+    "categoria": {
+      "nombre": "remeras",
+      "id": "remeras"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "remera-04",
+    "titulo": "remera-04",
+    "imagen": "../img/img-producto/remera-m-7.webp",
+    "img2": "./img/img-producto/remera-m-8.webp",
+    "categoria": {
+      "nombre": "remeras",
+      "id": "remeras"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "remera-05",
+    "titulo": "remera-05",
+    "imagen": "../img/img-producto/remera-m-9.webp",
+    "img2": "./img/img-producto/remera-m-10.jpg",
+    "categoria": {
+      "nombre": "remeras",
+      "id": "remeras"
+    },
+    "precio": 1000
+  },
+  {
+    "id": "vestido-01",
+    "titulo": "vestido-01",
+    "imagen": "../img/img-producto/vestido-m-1.webp",
+    "img2": "./img/img-producto/vestido-m-2.jpg",
+    "categoria": {
+      "nombre": "vestidos",
+      "id": "vestidos"
+    },
+    "precio": 1500
+  },
+  {
+    "id": "vestido-02",
+    "titulo": "vestido-02",
+    "imagen": "../img/img-producto/vestido-m-3.webp",
+    "img2": "./img/img-producto/vestido-m-4.jpg",
+    "categoria": {
+      "nombre": "vestidos",
+      "id": "vestidos"
+    },
+    "precio": 1500
+  },
+  {
+    "id": "vestido-03",
+    "titulo": "vestido-03",
+    "imagen": "../img/img-producto/vestido-m-5.webp",
+    "img2": "./img/img-producto/vestido-m-6.jpg",
+    "categoria": {
+      "nombre": "vestidos",
+      "id": "vestidos"
+    },
+    "precio": 1500
+  },
+  {
+    "id": "vestido-04",
+    "titulo": "vestido-04",
+    "imagen": "../img/img-producto/vestido-m-7.jpg",
+    "img2": "./img/img-producto/vestido-m-8.jpg",
+    "categoria": {
+      "nombre": "vestidos",
+      "id": "vestidos"
+    },
+    "precio": 1500
+  },
+  {
+    "id": "vestido-05",
+    "titulo": "vestido-05",
+    "imagen": "../img/img-producto/vestido-m-9.webp",
+    "img2": "./img/img-producto/vestido-m-10.jpg",
+    "categoria": {
+      "nombre": "vestidos",
+      "id": "vestidos"
+    },
+    "precio": 1500
+  },
+  {
+    "id": "short-01",
+    "titulo": "short-01",
+    "imagen": "../img/img-producto/short-m-1.webp",
+    "img2": "./img/img-producto/short-m-2.jpg",
+    "categoria": {
+      "nombre": "shorts",
+      "id": "shorts"
+    },
+    "precio": 2000
+  },
+  {
+    "id": "short-02",
+    "titulo": "short-02",
+    "imagen": "../img/img-producto/short-m-3.jpg",
+    "img2": "./img/img-producto/short-m-4.jpg",
+    "categoria": {
+      "nombre": "shorts",
+      "id": "shorts"
+    },
+    "precio": 2000
+  },
+  {
+    "id": "short-03",
+    "titulo": "short-03",
+    "imagen": "../img/img-producto/short-m-5.webp",
+    "img2": "./img/img-producto/short-m-6.jpg",
+    "categoria": {
+      "nombre": "shorts",
+      "id": "shorts"
+    },
+    "precio": 2000
+  },
+  {
+    "id": "short-04",
+    "titulo": "short-04",
+    "imagen": "../img/img-producto/short-m-7.webp",
+    "img2": "./img/img-producto/short-m-8.jpg",
+    "categoria": {
+      "nombre": "shorts",
+      "id": "shorts"
+    },
+    "precio": 2000
+  },
+  {
+    "id": "short-05",
+    "titulo": "short-05",
+    "imagen": "../img/img-producto/short-m-9.webp",
+    "img2": "./img/img-producto/short-m-10.jpg",
+    "categoria": {
+      "nombre": "shorts",
+      "id": "shorts"
+    },
+    "precio": 2000
+  },
+  {
+    "id": "body-01",
+    "titulo": "body-01",
+    "imagen": "../img/img-producto/body-m-1.jpg",
+    "img2": "./img/img-producto/body-m-2.jpg",
+    "categoria": {
+      "nombre": "bodys",
+      "id": "bodys"
+    },
+    "precio": 3000
+  },
+  {
+    "id": "body-02",
+    "titulo": "body-02",
+    "imagen": "../img/img-producto/body-m-3.webp",
+    "img2": "./img/img-producto/body-m-4.jpg",
+    "categoria": {
+      "nombre": "bodys",
+      "id": "bodys"
+    },
+    "precio": 3000
+  }
+]
